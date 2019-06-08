@@ -8,4 +8,4 @@ import { IfElseComponent } from './if-else.component';
   imports: [BrowserModule],
   bootstrap: [IfElseComponent]
 })
-export class AppModule { }
+export class AppModule {}

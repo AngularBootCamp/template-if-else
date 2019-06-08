@@ -9,9 +9,7 @@
         <ng-container *ngIf="n % 2; else evenmarker">
           {{ n }} is odd.
         </ng-container>
-        <ng-template #evenmarker>
-          {{ n }} is even.
-        </ng-template>
+        <ng-template #evenmarker> {{ n }} is even. </ng-template>
       </p>
     </div>
   </section>

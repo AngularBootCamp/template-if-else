@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { IfElseComponent } from './if-else.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [IfElseComponent],
+  declarations: [AppComponent],
   imports: [BrowserModule],
-  bootstrap: [IfElseComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

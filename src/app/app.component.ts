@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './if-else.component.html'
+  templateUrl: './app.component.html'
 })
-export class IfElseComponent {
+export class AppComponent {
   n = 0;
 
   increment() {
